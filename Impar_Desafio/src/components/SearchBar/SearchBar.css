@@ -1,0 +1,72 @@
+.busca-container {
+    width: 100%;
+    max-width: 1046px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-out;
+    margin-top: 145px;
+}
+
+.busca-container:hover .busca-input::placeholder {
+    color: #3a3a3a;
+}
+
+.busca-container:hover .busca-input {
+    cursor: pointer;
+}
+
+.busca-input {
+    flex: 0.98;
+    border: none;
+    outline: none;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    padding: 16px;
+    color: #757575;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    border-radius: 8px 0 0 8px;
+}
+
+.busca-input::placeholder {
+    color: #757575;
+    transition: color 0.3s ease-out;
+}
+
+.busca-input:focus::placeholder {
+    opacity: 0;
+}
+
+.busca-button {
+    border: none;
+    outline: none;
+    width: 49px;
+    height: 49px;
+    background: transparent url('../../assets/images/lupa.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transition: transform 0.2s ease-out;
+}
+
+.busca-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 1024px) {
+    .busca-container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .busca-container {
+        max-width: 95%;
+    }
+
+}

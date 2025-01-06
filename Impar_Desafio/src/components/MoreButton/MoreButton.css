@@ -1,0 +1,36 @@
+.hasMore-container {
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hasMore-button {
+    width: 173px;
+    height: 48px;
+    background: #E76316;
+    box-shadow: 0px 3px 6px rgba(146, 32, 114, 0.26);
+    border-radius: 8px;
+    opacity: 1;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.hasMore-button:hover {
+    background: #D85E14;
+    box-shadow: 0px 4px 8px rgba(146, 32, 114, 0.35);
+}
+
+.hasMore-button:disabled {
+    background: #888584;
+    color: #3a3a3a;
+}
