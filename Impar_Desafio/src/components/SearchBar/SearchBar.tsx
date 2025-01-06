@@ -27,7 +27,7 @@ function App(props: ISearchBar) {
             return;
         }
 
-        const localResults = props.cards.filter((card) =>
+        const localResults = localCards.filter((card) =>
             card.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
 
